@@ -87629,7 +87629,7 @@ case 7:n=e
 l=q.b
 m=A.dS(l,l.gbZ().cr("users")).cI(0,k.a.c.h(0,"uid"))
 l=t.N
-m.ox(0,A.a3(["name",a,"photoUrl",n,"description",b,"createdAt",A.ajm(1000*Date.now())],l,t.K))
+m.ox(0,A.a3(["name",a,"photoUrl",n,"description",b,"createdAt",A.ajm(1000*Date.now()),"isAdmin",!1],l,t.K))
 m.cr("communities").cI(0,"COM-ecccaa8f-4673-47b0-b038-012c81df9ccc").ox(0,A.a3(["lastAccessed",A.ajm(0),"isFavourite",!1],l,t.z))
 return A.C(null,r)}})
 return A.D($async$oz,r)},
